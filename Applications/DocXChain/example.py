@@ -25,7 +25,7 @@ def general_text_reading_example(image):
     
     text_detection_configs = dict()
     text_detection_configs['from_modelscope_flag'] = True
-    text_detection_configs['model_path'] = 'damo/cv_resnet18_ocr-detection-line-level_damo'
+    text_detection_configs['model_path'] = 'iic/cv_resnet18_ocr-detection-db-line-level_damo' #'damo/cv_resnet18_ocr-detection-line-level_damo'
     configs['text_detection_configs'] = text_detection_configs
 
     text_recognition_configs = dict()
@@ -62,7 +62,7 @@ def table_parsing_example(image):
     
     text_detection_configs = dict()
     text_detection_configs['from_modelscope_flag'] = True
-    text_detection_configs['model_path'] = 'damo/cv_resnet18_ocr-detection-line-level_damo'
+    text_detection_configs['model_path'] = 'iic/cv_resnet18_ocr-detection-db-line-level_damo' #'damo/cv_resnet18_ocr-detection-line-level_damo'
     configs['text_detection_configs'] = text_detection_configs
 
     text_recognition_configs = dict()
@@ -128,7 +128,7 @@ def document_structurization_example(image):
     
     text_detection_configs = dict()
     text_detection_configs['from_modelscope_flag'] = True
-    text_detection_configs['model_path'] = 'damo/cv_resnet18_ocr-detection-line-level_damo'
+    text_detection_configs['model_path'] = 'iic/cv_resnet18_ocr-detection-db-line-level_damo' #'damo/cv_resnet18_ocr-detection-line-level_damo'
     configs['text_detection_configs'] = text_detection_configs
 
     text_recognition_configs = dict()
@@ -173,7 +173,7 @@ def whole_pdf_conversion_example(image_list):
     
     text_detection_configs = dict()
     text_detection_configs['from_modelscope_flag'] = True
-    text_detection_configs['model_path'] = 'damo/cv_resnet18_ocr-detection-line-level_damo'
+    text_detection_configs['model_path'] = 'iic/cv_resnet18_ocr-detection-db-line-level_damo' #'damo/cv_resnet18_ocr-detection-line-level_damo'
     configs['text_detection_configs'] = text_detection_configs
 
     text_recognition_configs = dict()
